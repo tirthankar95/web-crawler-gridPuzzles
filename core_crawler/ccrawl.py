@@ -1,10 +1,13 @@
-import logging 
-from playwright.sync_api import (
-    sync_playwright, 
-    TimeoutError as PlaywrightTimeout
-)
-logger = logging.getLogger(__name__)  
+import logging
+from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeout
+from page_parser.grid_parser import parse_puzzle_page
 
+logger = logging.getLogger(__name__)
+
+# ---------------------------------------------------------------------------
+# Constants
+# ---------------------------------------------------------------------------
+BASE_URL = "https://logic.puzzlebaron.com/init.php"
 GRID_LABEL_MAP = {
     "3x4": "3x4 Grid",
     "3x5": "3x5 Grid",
@@ -13,6 +16,25 @@ GRID_LABEL_MAP = {
     "4x6": "4x6 Grid",
     "4x7": "4x7 Grid",
 }
+
+
+def select_radio_by_label(page, label_text: str) -> bool:
+    """Click a radio button whose associated label contains label_text."""
+    # Try label element approach first
+    labels = page.query_selector_all("label")
+    for lbl in labels:
+        if label_text.lower() in lbl.inner_text().lower():
+            lbl.click()
+            return True
+    # Fallback: find input[type=radio] near matching text
+    radios = page.query_selector_all("input[type='radio']")
+    for radio in radios:
+        val = radio.get_attribute("value") or ""
+        if label_text.lower() in val.lower():
+            radio.click()
+            return True
+    return False
+
 
 def crawl_puzzles(
     grid_size: str,
@@ -26,7 +48,9 @@ def crawl_puzzles(
     results: list[dict] = []
     errors: list[str] = []
 
-    logger.info(f"Starting crawler: grid={grid_size}, difficulty={difficulty}, count={count}")
+    logger.info(
+        f"Starting crawler: grid={grid_size}, difficulty={difficulty}, count={count}"
+    )
     logger.info(f"Output file: {output_file}")
 
     with sync_playwright() as p:
@@ -56,13 +80,17 @@ def crawl_puzzles(
                 if not select_radio_by_label(page, grid_label):
                     # Try value-based approach
                     radios = page.query_selector_all("input[type='radio']")
-                    logger.warning(f"Available radio values: {[r.get_attribute('value') for r in radios]}")
+                    logger.warning(
+                        f"Available radio values: {[r.get_attribute('value') for r in radios]}"
+                    )
                     raise RuntimeError(f"Could not find radio for '{grid_label}'")
 
                 # ── Step 3: Select Difficulty ─────────────────────────────
                 logger.info(f"Selecting difficulty: {difficulty}")
                 if not select_radio_by_label(page, difficulty):
-                    raise RuntimeError(f"Could not find radio for difficulty '{difficulty}'")
+                    raise RuntimeError(
+                        f"Could not find radio for difficulty '{difficulty}'"
+                    )
 
                 # ── Step 4: Click "Create Puzzle" ─────────────────────────
                 logger.info("Clicking 'Create Puzzle' …")
@@ -77,7 +105,9 @@ def crawl_puzzles(
                 if not submit_btn:
                     raise RuntimeError("Could not find submit/create button")
 
-                logger.info(f"Submit button text: '{submit_btn.get_attribute('value') or submit_btn.inner_text()}'")
+                logger.info(
+                    f"Submit button text: '{submit_btn.get_attribute('value') or submit_btn.inner_text()}'"
+                )
                 submit_btn.click()
                 page.wait_for_load_state("domcontentloaded", timeout=20_000)
                 page.wait_for_load_state("networkidle", timeout=15_000)
@@ -103,13 +133,21 @@ def crawl_puzzles(
                         continue
 
                 if start_btn:
-                    btn_text = start_btn.inner_text() if hasattr(start_btn, "inner_text") else ""
-                    logger.info(f"Clicking start button: '{btn_text or start_btn.get_attribute('value')}' …")
+                    btn_text = (
+                        start_btn.inner_text()
+                        if hasattr(start_btn, "inner_text")
+                        else ""
+                    )
+                    logger.info(
+                        f"Clicking start button: '{btn_text or start_btn.get_attribute('value')}' …"
+                    )
                     start_btn.click()
                     page.wait_for_load_state("domcontentloaded", timeout=20_000)
                     page.wait_for_load_state("networkidle", timeout=15_000)
                 else:
-                    logger.warning("No 'Start Puzzle' button found – parsing current page as puzzle page")
+                    logger.warning(
+                        "No 'Start Puzzle' button found – parsing current page as puzzle page"
+                    )
 
                 puzzle_url = page.url
                 logger.info(f"Puzzle URL: {puzzle_url}")
@@ -124,7 +162,9 @@ def crawl_puzzles(
                 puzzle["index"] = i
 
                 clue_count = len(puzzle.get("clues", []))
-                logger.info(f"Collected: '{puzzle.get('title', 'N/A')}' with {clue_count} clues")
+                logger.info(
+                    f"Collected: '{puzzle.get('title', 'N/A')}' with {clue_count} clues"
+                )
                 results.append(puzzle)
 
             except PlaywrightTimeout as e:
@@ -163,7 +203,9 @@ def crawl_puzzles(
 
     path = Path(output_file)
     path.write_text(json.dumps(output, indent=2, ensure_ascii=False))
-    logger.info(f"Done! Collected {len(results)}/{count} puzzles. Saved to: {path.resolve()}")
+    logger.info(
+        f"Done! Collected {len(results)}/{count} puzzles. Saved to: {path.resolve()}"
+    )
     if errors:
         logger.warning(f"Errors ({len(errors)}):")
         for e in errors:

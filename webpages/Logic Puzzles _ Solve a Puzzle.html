@@ -1,0 +1,727 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<title>Logic Puzzles | Solve a Puzzle</title>
+	<link rel="icon" type="image/x-icon" href="https://www.puzzlebaron.com/global/template/favicon.ico" />
+    <link rel="preload" as="style" href="https://www.puzzlebaron.com/global/template/global.css?61" />
+	<link rel="stylesheet" type="text/css" href="https://www.puzzlebaron.com/global/template/global.css?61" />
+    <link rel="preload" as="style" href="https://www.puzzlebaron.com/global/template/colors_deepblue.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.puzzlebaron.com/global/template/colors_deepblue.css" />
+	
+    <link rel="preload" as="script" href="https://www.puzzlebaron.com/global/template/js/jquery-1.4.2.min.js">
+	<script src="https://www.puzzlebaron.com/global/template/js/jquery-1.4.2.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="https://www.puzzlebaron.com/global/template/js/ui.core.js"></script>
+	<script type="text/javascript" src="https://www.puzzlebaron.com/global/template/js/ui.tabs.js"></script>
+	<script type="text/javascript" src="https://www.puzzlebaron.com/global/template/js/jquery.tinycarousel.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		  $("#tabs").tabs({ fx: { height: 'toggle', opacity: 'toggle' } });
+	});
+	
+	$(document).ready(function(){
+		$('.carousel_container').tinycarousel({
+			start: 1, // where should the carousel start?
+			display: 1, // how many blocks do you want to move at a time?
+			axis: 'x', // vertical or horizontal scroller? 'x' or 'y' .
+			controls: true, // show left and right navigation buttons?
+			pager: false, // is there a page number navigation present?
+			interval: 1000, // move to the next block on interval.
+			intervaltime: 5000, // interval time in milliseconds.
+			rewind: true, // If interval is true and rewind is true it will play in reverse if the last slide is reached
+			animation: true, // false is instant, true is animate.
+			duration: 1000, // how fast must the animation move in milliseconds?
+			callback: null // function that executes after every move
+		});	
+	});	
+	</script>
+	
+
+
+<script async src='https://www.googletagmanager.com/gtag/js?id=G-VWD6TDWCR7'></script>
+<script>
+  window.ramp = window.ramp || {};
+  window.ramp.que = window.ramp.que || [];
+  window.ramp.forcePath = 'trendi-video-off';
+</script>
+<script src="//cdn.intergient.com/1024605/73467/ramp_config.js"></script>
+<script>
+    window._pwGA4PageviewId = ''.concat(Date.now());
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function () { 
+      dataLayer.push(arguments);
+    };
+    gtag('js', new Date());
+    gtag('config', 'G-VWD6TDWCR7', { 'send_page_view': false });
+    gtag(
+      'event',
+      'ramp_js',
+      {
+        'send_to': 'G-VWD6TDWCR7',
+        'pageview_id': window._pwGA4PageviewId
+      }
+    );
+</script>
+<script src="https://btloader.com/tag?o=5150306120761344&upapi=true" async></script>
+
+
+
+
+<script type="text/javascript">
+// Dec 2023: Some Android devices are not being detected as mobile
+const isUserMobile = window.matchMedia('(pointer: coarse)').matches;
+if(isUserMobile) {
+    document.cookie = "coarse_pointer=1";
+}
+var win_width = window.innerWidth;
+var win_height = window.innerHeight;
+document.cookie = "win_width="+win_width;
+document.cookie = "win_height="+win_height;
+
+// Oct 2019: We have to do this because iPads are misreporting as MacIntel now
+let isIOS = (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+if(isIOS) {
+	document.cookie = "isipad=1"; 
+}
+</script>
+
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&display=swap" />
+
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" />
+
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=BenchNine:700&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=BenchNine:700&display=swap" />
+</head>
+
+<body>
+
+<div id="header">
+  <div id="header_inside">
+    <div id="mobilemenu" style="display:none;"><a href="javascript:void(0);" class="mobilemenuicon" onclick="mobileMenu()">&#9776;</a></div>
+    <div class="material-symbols-outlined" style="float: right; color: white; font-size: 30px; padding-right: 7px; padding-top: 3px; display: none;" id="#mobileloginicon">
+<a href="javascript:void(0);" style="color:white" onclick="loginMenu()">login</a>    </div>
+	
+	<div id="login_box">
+      <div id="login_form_container">
+<script type="text/javascript" src="https://forum.puzzlebaron.com/js/login_md5.js?v=550"></script>
+<form id="idLoginForm" action="/login.php" method="post" class="h-clearfix">
+<input type="hidden" name="url" value="aHR0cHM6Ly9sb2dpYy5wdXp6bGViYXJvbi5jb20vaW5pdC5waHA=" /> 
+<input type="hidden"  name="rememberme" id="idLoginRememberMe" value="on"/> 
+
+          <table border="0" cellspacing="0" cellpadding="0">
+		  <tr>
+		  <td>
+			<input tabindex="991" type="text" size="10" class="wpcf7-text-top"  name="username" id="idLoginUserName" placeholder="User Name" />
+			<input tabindex="992" type="password" size="10" class="wpcf7-text-top" title="Password" autocomplete="off" name="password" id="idLoginPassword" placeholder="Password" />         
+			</td>
+			<td class="mobile_display_hide">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<td valign="top" width="90%">
+			<input type="hidden" name="redir" value="https://logic.puzzlebaron.com">
+            <input tabindex="993" id="idLoginBtn" type="submit" class="loginform-submit" value="Log In"/>
+		</td>
+		</tr>
+		</table>
+        </form>
+		<span class="clear"></span>
+        <div id="login_text_under">
+          Not a member? <a href="/register.php">Register now</a> for free!
+        </div>
+      </div>  
+<script type="text/javascript">
+(function(){
+	//remove highlight on focus
+	var loginInputs = document.querySelectorAll('#idLoginForm .login-fieldset input');
+	for (var i = 0; i < loginInputs.length; i++) {
+		loginInputs[i].onfocus = function() {
+			this.className = this.className.replace(/\bbadlogin\S*/g, '');
+		}
+	};
+
+	/*disable the submit button when submitting the form to prevent
+	 it from being clicked or tapped a second time */
+	document.getElementById('idLoginForm').onsubmit = function() {
+		document.getElementById('idLoginBtn').disabled = 'disabled';
+		/* if the md5hash code changes, keep it synchronized with the login code in the widget_register template */
+		md5hash(document.getElementById('idLoginPassword'), document.getElementById('vb_loginmd5'), document.getElementById('vb_loginmd5_utf8'), 0);
+
+	};
+
+	//set focus to first textbox if error is not related to invalid username or password
+	if (document.querySelectorAll('#idLoginForm .login-fieldset input[type=text][class*=badlogin]').length == 0) {
+		try {
+			document.querySelectorAll('#idLoginForm .login-fieldset input')[0].focus();
+		}catch(e){}
+	}
+
+
+})();
+</script>	  
+	  
+    </div>
+    <a href="/"><img src="/images/logo.png" id="logo" alt="Logic Puzzles | Solve a Puzzle" title="Logic Puzzles | Solve a Puzzle"></a>
+  </div>
+</div>
+
+<div id="nav_container"></div>
+<div id="nav">
+   <div id="nav_home">
+     <a href="/" class="home_btn"><img src="https://www.puzzlebaron.com/global/template/images/icon_home.gif" width="17" height="19" class="home_btn_img" alt="Cryptograms Home"></A>
+   </div>
+   
+
+   <div class="nav_item">
+     <a href="/init.php" class="on">Play</a>
+   </div>
+
+   <div class="nav_item">
+     <a href="/top.php">High Scores</a>
+   </div>
+
+   <div class="nav_item">
+     <a href="/register.php">Register</a>
+   </div>
+
+   <div class="nav_item">
+     <a href="/online.php">Online</a>
+   </div>
+
+   <div class="nav_item">
+     <a href="https://www.printable-puzzles.com/printable-logic-puzzles.php">Printables</a>
+   </div>
+
+   <div class="nav_item">
+     <a href="https://forum.puzzlebaron.com">Forum</a>
+   </div>
+
+   <div class="nav_item">
+     <a href="https://games.puzzlebaron.com/?arkpromo=Site_Circuits_TopNav">Games</a>
+   </div>
+
+   <div class="nav_item">
+     <a href="/puzzles.php">More</a>
+   </div>
+   
+   
+   <div class="nav_item mobile_menu_logout" style="display:none;">
+       <a href="javascript:void(0);"  onclick="mobileMenu();loginMenu()">Login</a>
+   </div>
+</div>
+
+
+
+<style>
+
+    #upgrade_banner {
+        width: 200px;
+        height: 90px;
+		background: linear-gradient(135deg, #555, #2c2c2c);
+        font-family: Arial, sans-serif;
+        color: white;
+        overflow: hidden;
+        position: relative;
+        border-radius: 6px;
+        box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    }
+    .upgrade_frame {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        opacity: 0;
+    }
+    .upgrade_frame h1 {
+        font-size: 22px;
+        margin: 0;
+        line-height: 26px;
+        font-weight: bold;
+    }
+    .upgrade_frame p {
+        font-size: 13px;
+        margin: 4px 0 0 0;
+    }
+    .small-text {
+        font-size: 10px;
+    }
+    .price {
+        font-size: 22px;
+        font-weight: bold;
+        margin: 2px 0;
+    }
+    .cta-btn {
+        background: #ffcc00;
+        color: #000;
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 4px;
+        box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    }
+</style>
+
+<div id="undernav">
+<table border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+<td valign="top" class="mobile_display_hide">
+<a href="/register.php"><div id="upgrade_banner">
+    <div class="upgrade_frame frame1">
+		<p><b>Enjoy Puzzle Baron?</b></p>
+        <h1><span style="color: #ffcc00;">Play Ad-Free</span></h1>
+    </div>
+    <div class="upgrade_frame frame2">
+        <h1>Upgrade to <span style="color: #ffcc00;">Premium</span></h1>
+    </div>
+    <div class="upgrade_frame frame3">
+        <div class="small-text">As low as</div>
+        <div class="price">$3.33/month</div>
+    </div>
+    <div class="upgrade_frame frame4">
+        <div class="cta-btn">Go Premium</div>
+		<p>Thanks for your support!</p>
+    </div>
+</div></a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script>
+    const tl = gsap.timeline({repeat: 0, repeatDelay: 8});
+
+    function showFrame(frameClass) {
+        tl.to(frameClass, {duration: 1, opacity: 1, y: 0})
+          .to(frameClass, {duration: 1, opacity: 0, delay: 1});
+    }
+
+    tl.to(".frame1", {duration: 1, opacity: 1, y: 0})
+      .to(".frame1", {duration: 1, opacity: 0, delay: 1})
+      .to(".frame2", {duration: 1, opacity: 1, y: 0})
+      .to(".frame2", {duration: 1, opacity: 0, delay: 1})
+      .to(".frame3", {duration: 1, opacity: 1, y: 0})
+      .to(".frame3", {duration: 1, opacity: 0, delay: 1})
+      .to(".frame4", {duration: 1, opacity: 1, y: 0});
+</script>
+</td>
+<td class="mobile_display_hide">&nbsp;&nbsp;</td>
+<td valign="top" width="728">
+<!--  [Desktop/Tablet]leaderboard_atf -->
+<div data-pw-desk="leaderboard_atf" data-pw-mobi="leaderboard_atf" id="pwDeskLbAtf"></div>
+<script type="text/javascript">
+  window.ramp.que.push(function () {
+      window.ramp.addTag("pwDeskLbAtf");
+  })
+</script>
+</td>
+</tr>
+</table>
+</div>
+
+<div id="container">
+	<div id="container_left">
+
+
+  
+
+
+<script>
+function setCookie(c_name,value,exdays) {
+	var exdate=new Date();
+	exdate.setDate(exdate.getDate() + exdays);
+	var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+	document.cookie=c_name + "=" + c_value;
+}
+
+function supportsVml() {
+    if (typeof supportsVml.supported == "undefined") {
+        var a = document.body.appendChild(document.createElement('div'));
+        a.innerHTML = '<v:shape id="vml_flag1" adj="1" />';
+        var b = a.firstChild;
+        b.style.behavior = "url(#default#VML)";
+        supportsVml.supported = b ? typeof b.adj == "object": true;
+        a.parentNode.removeChild(a);
+    }
+    return supportsVml.supported
+}
+
+function supportsSvg() {
+	return document.implementation.hasFeature("https://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1")
+}
+
+var s_vml = supportsVml();
+var s_svg = supportsSvg();
+
+if(s_vml || s_svg) { 
+	setCookie("giflabels","0",1);
+} else {
+	setCookie("giflabels","1",1);
+}
+</script>
+
+
+
+
+<a name="toppage"></a>
+<div style="float:right; width: 150px; margin-bottom: 15px; margin-left: 25px;"><a href="http://www.amazon.com/exec/obidos/ASIN/1615648550/casebookjackth01?dev-t=D3DUR34CM7XT58&camp=2025&link_code=sp1" target="_new"><img src="/images/bookpromo1c.jpg" width="150" height="217" alt="" border="0"></a></div>
+<h1 class="header_font">Select Your Puzzle Parameters</h1>
+
+<p>
+Select your grid size and difficulty range below and a puzzle will be initialized to match your preferences.  
+</p>
+
+<form method="post" action="init2.php">
+
+
+
+
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><h4 style="margin:0;padding:0">Grid Size</h4></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><select name="sg" id="sg" style="font-size: 14px;">
+<option value="1" selected>3x4 Grid</option>
+<option value="2">3x5 Grid</option>
+<option value="3">4x4 Grid</option>
+<option value="4">4x5 Grid</option>
+<option value="5">4x6 Grid</option>
+<option value="6">4x7 Grid</option>
+</select></td>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr>
+<td><h4 style="margin:0;padding:0">Difficulty Range</h4></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><select name="sd" id="sd" style="font-size: 14px;">
+<option value="1" selected>Easy</option>
+<option value="2">Moderate</option>
+<option value="3">Challenging</option>
+</select></td>
+</tr>
+</table>
+
+<br>
+
+
+<p>Puzzles with larger grid sizes and higher difficulty levels will have a larger maximum number of points.  To increase the point potential, select a greater grid size or difficulty level (or both).  Final point scores will be awarded based on these factors as well as the total time it took you to complete the puzzle.
+</p>
+
+
+
+<input type="submit" name="CreatePuzzle" value="Create Puzzle &raquo;" class="button_green" style="width:auto">
+</form>
+<p>
+<br>
+<p>
+
+
+</p>
+
+
+<div style="cleaR:both;"></div>
+
+<p><br><p><Br><P>
+
+
+</div>
+
+
+  
+
+<script>
+function mobileMenu() {
+  if($("#nav").hasClass("show_nav")) {
+    $("#nav").removeClass("show_nav");
+    $("body").removeClass("layer_opened");    
+    $("#nav_container").removeClass("menu_on");
+  } else {
+    $("#nav").addClass("show_nav");
+    $("body").addClass("layer_opened");
+    $("#nav_container").addClass("menu_on");
+  }
+}
+
+
+
+$("#nav_container").click(function() {
+    if($("#nav").hasClass("show_nav")) {
+        mobileMenu();
+    }
+    if($("#login_box").hasClass("mobile_display_show")) {
+        $("#login_box").removeClass("mobile_display_show");
+        $("#nav_container").removeClass("menu_on");    
+    }
+});
+
+
+
+function loginMenu() {
+  if($("#login_box").hasClass("mobile_display_show")) {
+      $("#login_box").removeClass("mobile_display_show");
+      $("#nav_container").removeClass("menu_on");
+  } else {
+      $("#login_box").addClass("mobile_display_show");
+      $("#nav_container").addClass("menu_on");      
+  }
+}
+
+</script>
+
+	<div id="container_right">
+  
+
+<script type="text/javascript">	
+	// Update the count down every 1 second
+	var now = new Date().getTime();
+	var rightnow = now;
+	var countDownDate = rightnow + (1442876*1000);
+	
+	var countdown = setInterval(function() {
+	  var now = new Date().getTime();
+      var distance = countDownDate - now;
+	  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+	  document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+	  + minutes + "m " + seconds + "s ";
+	  if (distance < 0) {
+	    clearInterval(countdown);
+	    document.getElementById("countdown").innerHTML = "EXPIRED";
+	  }
+	}, 1000);
+</script>
+
+    <div class="container_right_box">
+	<div class="header_font">Competition Timer</div>
+     <div style="margin-top: 10px;"><span id="countdown"></span></div>
+    </div><div style="margin-bottom: 15px;">
+<!--  [Desktop/Tablet]med_rect_atf -->
+<div data-pw-desk="med_rect_atf" data-pw-mobi="med_rect_atf" id="pwDeskMedRectAtf"></div>
+<script type="text/javascript">
+  window.ramp.que.push(function () {
+      window.ramp.addTag("pwDeskMedRectAtf");
+  })
+</script>
+</div>
+			<!-- Tabbed Box -->
+			<div class="container_right_box">
+				<!-- Start Tabbed Box Container -->
+				<div id="tabs">
+					<!-- Tabs Menu -->
+					<ul id="tab-items">
+						<li><a href="#tabs-1" title="Forum" style="font-weight: normal;">Forum</a></li>
+						<li><a href="#tabs-2" title="Records" style="font-weight: normal;">Records</a></li>
+						<!--<li><a href="#tabs-3" title="News" style="font-weight: normal;">News</a></li>-->
+					</ul>
+					<!-- Tab Container for menu with ID tabs-1 -->
+					<div class="tabs-inner" id="tabs-1">
+						<ul>
+
+							<li>
+								<a href="https://forum.puzzlebaron.com/forum/puzzle-baron/logic-puzzles/36144-how-to-solve-%E2%80%9Cof-the%E2%80%A6%E2%80%9D-clues?p=38663" nofollow><img src="https://www.puzzlebaron.com/global/template/images/f1.gif" width="60" height="55" alt="" class="pic alignleft" /></a>
+								<b><a href="https://forum.puzzlebaron.com/forum/puzzle-baron/logic-puzzles/36144-how-to-solve-%E2%80%9Cof-the%E2%80%A6%E2%80%9D-clues?p=38663" nofollow>How to solve &#8220;Of the&#8230;&#8221; clues?</a></b>
+								<span class="date">Posted by: <i>Doc Grauzer</i><br>June 12, 2026, 7:34 pm</span>
+							</li><div style="clear:both"></div>
+							<li>
+								<a href="https://forum.puzzlebaron.com/forum/puzzle-baron/logic-puzzles/35872-dark-mode?p=38659" nofollow><img src="https://www.puzzlebaron.com/global/template/images/f2.gif" width="60" height="55" alt="" class="pic alignleft" /></a>
+								<b><a href="https://forum.puzzlebaron.com/forum/puzzle-baron/logic-puzzles/35872-dark-mode?p=38659" nofollow>dark mode</a></b>
+								<span class="date">Posted by: <i>frogsgrof</i><br>June 10, 2026, 4:50 pm</span>
+							</li><div style="clear:both"></div>
+							<li>
+								<a href="https://forum.puzzlebaron.com/forum/puzzle-baron/logic-puzzles/35872-dark-mode?p=38658" nofollow><img src="https://www.puzzlebaron.com/global/template/images/f3.gif" width="60" height="55" alt="" class="pic alignleft" /></a>
+								<b><a href="https://forum.puzzlebaron.com/forum/puzzle-baron/logic-puzzles/35872-dark-mode?p=38658" nofollow>dark mode</a></b>
+								<span class="date">Posted by: <i>Carbon</i><br>June 10, 2026, 2:29 pm</span>
+							</li><div style="clear:both"></div>
+							<li>
+								<a href="https://forum.puzzlebaron.com/forum/puzzle-baron/logic-puzzles/38644-wording-of-hints?p=38653" nofollow><img src="https://www.puzzlebaron.com/global/template/images/f4.gif" width="60" height="55" alt="" class="pic alignleft" /></a>
+								<b><a href="https://forum.puzzlebaron.com/forum/puzzle-baron/logic-puzzles/38644-wording-of-hints?p=38653" nofollow>Wording of hints</a></b>
+								<span class="date">Posted by: <i>the cryptogram keeper</i><br>June 9, 2026, 12:01 pm</span>
+							</li><div style="clear:both"></div>
+							<li>
+								<a href="https://forum.puzzlebaron.com/forum/puzzle-baron/logic-puzzles/38644-wording-of-hints?p=38648" nofollow><img src="https://www.puzzlebaron.com/global/template/images/f5.gif" width="60" height="55" alt="" class="pic alignleft" /></a>
+								<b><a href="https://forum.puzzlebaron.com/forum/puzzle-baron/logic-puzzles/38644-wording-of-hints?p=38648" nofollow>Wording of hints</a></b>
+								<span class="date">Posted by: <i>br14nh</i><br>June 6, 2026, 9:40 pm</span>
+							</li><div style="clear:both"></div>
+							<li>
+								<a href="https://forum.puzzlebaron.com/forum/puzzle-baron/logic-puzzles/38644-wording-of-hints?p=38647" nofollow><img src="https://www.puzzlebaron.com/global/template/images/f6.gif" width="60" height="55" alt="" class="pic alignleft" /></a>
+								<b><a href="https://forum.puzzlebaron.com/forum/puzzle-baron/logic-puzzles/38644-wording-of-hints?p=38647" nofollow>Wording of hints</a></b>
+								<span class="date">Posted by: <i>JoshGrams</i><br>June 6, 2026, 2:18 pm</span>
+							</li><div style="clear:both"></div>		
+						</ul>
+					</div>
+					
+					<!-- Tab Container for menu with ID tabs-2 -->
+					<div class="tabs-inner" id="tabs-2">
+						<ul>
+
+							<li class="previousrecord" title="The previous record for this puzzle was 77 seconds, and was set by thisisnotakate">
+								<a href="profile.php?u=368324" nofollow><img src="https://www.puzzlebaron.com/global/template/images/noavatar.gif" height="60" width="60" border="0" alt="akiiiii" class="pic alignleft" ></a>
+								<a href="profile.php?u=368324" nofollow>akiiiii</a> set a new record of 63 seconds on puzzle #93635<br>
+								<span class="date">June 14, 2026, 6:23 am</span>
+								<div style="clear:both;"></div>
+							</li>
+							<li class="previousrecord" title="The previous record for this puzzle was 82 seconds, and was set by Guest">
+								<a href="profile.php?u=368324" nofollow><img src="https://www.puzzlebaron.com/global/template/images/noavatar.gif" height="60" width="60" border="0" alt="akiiiii" class="pic alignleft" ></a>
+								<a href="profile.php?u=368324" nofollow>akiiiii</a> set a new record of 65 seconds on puzzle #92193<br>
+								<span class="date">June 14, 2026, 6:14 am</span>
+								<div style="clear:both;"></div>
+							</li>
+							<li class="previousrecord" title="The previous record for this puzzle was 63 seconds, and was set by Guest">
+								<a href="profile.php?u=368324" nofollow><img src="https://www.puzzlebaron.com/global/template/images/noavatar.gif" height="60" width="60" border="0" alt="akiiiii" class="pic alignleft" ></a>
+								<a href="profile.php?u=368324" nofollow>akiiiii</a> set a new record of 53 seconds on puzzle #84749<br>
+								<span class="date">June 14, 2026, 6:10 am</span>
+								<div style="clear:both;"></div>
+							</li>
+							<li class="previousrecord" title="The previous record for this puzzle was 37 seconds, and was set by Scraggles">
+								<a href="profile.php?u=368324" nofollow><img src="https://www.puzzlebaron.com/global/template/images/noavatar.gif" height="60" width="60" border="0" alt="akiiiii" class="pic alignleft" ></a>
+								<a href="profile.php?u=368324" nofollow>akiiiii</a> set a new record of 30 seconds on puzzle #83527<br>
+								<span class="date">June 14, 2026, 6:04 am</span>
+								<div style="clear:both;"></div>
+							</li>
+							<li class="previousrecord" title="The previous record for this puzzle was 150 seconds, and was set by planemaker">
+								<a href="profile.php?u=366934" nofollow><img src="https://www.puzzlebaron.com/global/template/images/noavatar.gif" height="60" width="60" border="0" alt="Ubik" class="pic alignleft" ></a>
+								<a href="profile.php?u=366934" nofollow>Ubik</a> set a new record of 106 seconds on puzzle #73971<br>
+								<span class="date">June 14, 2026, 6:00 am</span>
+								<div style="clear:both;"></div>
+							</li>
+							<li class="previousrecord" title="The previous record for this puzzle was 45 seconds, and was set by GitBashTerminal">
+								<a href="profile.php?u=368324" nofollow><img src="https://www.puzzlebaron.com/global/template/images/noavatar.gif" height="60" width="60" border="0" alt="akiiiii" class="pic alignleft" ></a>
+								<a href="profile.php?u=368324" nofollow>akiiiii</a> set a new record of 34 seconds on puzzle #95289<br>
+								<span class="date">June 14, 2026, 5:54 am</span>
+								<div style="clear:both;"></div>
+							</li>						</ul>
+					</div>
+					
+
+				</div>
+			</div>
+				<!-- End Tabbed Box Container -->	
+<div style="margin-bottom: 15px;">
+<!--  [Desktop/Tablet]med_rect_btf -->
+<div data-pw-desk="med_rect_btf"  data-pw-mobi="med_rect_atf" id="pwDeskMedRectBtf1"></div>
+<script type="text/javascript">
+  window.ramp.que.push(function () {
+      window.ramp.addTag("pwDeskMedRectBtf1");
+  })
+</script>
+</div>
+
+<div style="margin-bottom: 15px;">
+<a href="https://lexicus.puzzlebaron.com"><img src="https://www.puzzlebaron.com/ads/lexicus_300x250.png" width="300" border="0"></a></div>
+
+
+    <div class="container_right_box" style="position: relative;">
+		<!-- Recent Projects Slider -->
+				<div class="header_font">May's Winners</div>
+				<div class="carousel_container">
+					<a class="buttons prev" href="#">left</a>
+					<div class="viewport">
+						<ul class="overview">
+
+							<li>
+								<div class="thumb"><a href="profile.php?u=162961" nofollow><img src="https://www.puzzlebaron.com/global/template/images/trophy-1.gif" width="93" height="136" alt="" border="0" class="pic1"></a></div>
+								<h3>Highest Score</h3>
+								<h4><a href="profile.php?u=162961" nofollow>zenobia43</a></h4>
+								<h5 style="margin-top:5px">1000009 pts. </h5>
+							</li>
+							<li>
+								<div class="thumb"><a href="profile.php?u=228022" nofollow><img src="https://www.puzzlebaron.com/global/template/images/trophy-2.gif" width="93" height="136" alt="" border="0" class="pic1"></a></div>
+								<h3>Highest Score</h3>
+								<h4><a href="profile.php?u=228022" nofollow>schnargle</a></h4>
+								<h5 style="margin-top:5px">943111 pts. </h5>
+							</li>
+							<li>
+								<div class="thumb"><a href="profile.php?u=220997" nofollow><img src="https://www.puzzlebaron.com/global/template/images/trophy-3.gif" width="93" height="136" alt="" border="0" class="pic1"></a></div>
+								<h3>Highest Score</h3>
+								<h4><a href="profile.php?u=220997" nofollow>serenia</a></h4>
+								<h5 style="margin-top:5px">854916 pts. </h5>
+							</li>						</ul>
+					</div>
+					<a class="buttons next" href="#">right</a>
+				</div>
+				<div class="clear"></div>
+    </div>    
+
+
+	</div>
+  
+
+</div>
+
+
+<div id="footer">
+  <div id="footer_inside">
+  <div class="footer_box_wide first_footer_box " style="margin-left: 15px;">
+  
+    <div class="header_font footer_font">About Puzzle Baron</div>
+    
+    
+				<p>The <a href="//www.puzzlebaron.com">Puzzle Baron</a> family of web sites has served millions and millions of puzzle enthusiasts since its inception in 2006. From <a href="//jigsaw.puzzlebaron.com">jigsaw puzzles</a> to <a href="//acrostics.puzzlebaron.com">acrostics</A>, <a href="//logic.puzzlebaron.com">logic puzzles</a> to <a href="//dropquotes.puzzlebaron.com">drop quotes</a>, <a href="//numbergrids.puzzlebaron.com">numbergrids</a> to <a href="//wordtwist.puzzlebaron.com">wordtwist</a> and even <a href="//sudoku.puzzlebaron.com">sudoku</a> and <a href="//crosswords.puzzlebaron.com">crossword puzzles</a>, we run the gamut in <a href="//www.printable-puzzles.com">printable puzzles</a>, <a href="//www.printable-puzzles.com/printable-crossword-puzzles.php">printable crossword puzzles</a> and logic games.</p>
+				<p><img src="https://www.puzzlebaron.com/global/template/images/plane.png" width="243" height="126" alt="Puzle Baron flying his plane" border="0"></p>
+    
+  </div>
+  <div class="footer_box_narrow first_footer_box">
+    
+    <div class="header_font footer_font">Quick Links</div>
+		<ul>
+
+   			<li><a href="/init.php" title="">Solve a Puzzle</a></li>
+
+   			<li><a href="/top.php" title="">High Scores</a></li>
+
+   			<li><a href="/online.php" title="">Who's Online</a></li>
+
+   			<li><a href="https://forum.puzzlebaron.com" title="">Forum</a></li>
+
+   			<li><a href="/books.php" title="">Puzzle Baron Books</a></li>
+
+   			<li><a href="/avatars.php" title="">Choose an Avatar</a></li>
+
+   			<li><a href="/puzzles.php" title="">More Puzzles</a></li>
+
+   			<li><a href="https://games.puzzlebaron.com/?arkpromo=Site_Circuits_TopNav" title="">More Games</a></li>
+
+   			<li><a href="/privacy.php" title="">Privacy Policy</a></li>
+   		
+		</ul>
+    </div>
+  <div class="footer_box_narrow">
+    
+    <div class="header_font footer_font">Competitions</div>    
+		<ul>
+<li><a href="/pastresults.php?m=5&y=2026" nofollow>May 2026</a></li>
+		<li><a href="/pastresults.php?m=4&y=2026" nofollow>April 2026</a></li>
+		<li><a href="/pastresults.php?m=3&y=2026" nofollow>March 2026</a></li>
+		<li><a href="/pastresults.php?m=2&y=2026" nofollow>February 2026</a></li>
+		<li><a href="/pastresults.php?m=1&y=2026" nofollow>January 2026</a></li>
+		<li><a href="/pastresults.php?m=12&y=2025" nofollow>December 2025</a></li>
+		<li><a href="/pastresults.php?m=11&y=2025" nofollow>November 2025</a></li>
+		<li><a href="/pastresults.php?m=10&y=2025" nofollow>October 2025</a></li>
+				</ul>  
+    </div>
+  <div class="footer_box_wide margin_left">
+    
+    <div class="header_font footer_font">Questions or Comments?</div>    
+		<div class="wpcf7">
+			<form class="wpcf7-form" action="/contact.php" method="post">
+			<p><label>Name:</label>
+			<span class="wpcf7-form-control-wrap your-name"><input type="text" size="40" class="wpcf7-text" value="" name="name"/></span><span class="clear"></span></p>
+			<p><label>Email:</label>
+			<span class="wpcf7-form-control-wrap your-email"><input type="text" size="40" class="wpcf7-text" value="" name="email"/></span><span class="clear"></span></p>
+			<p><span class="wpcf7-form-control-wrap your-message"><textarea rows="5" cols="5" name="message"></textarea></span></p>
+			<p title="Sorry, we have to ask these silly questions to make sure you're a human and not a spambot." class="cha">How many letters are in <b>bell?</b><input type="text" size="10" class="wpcf7-text" value="" name="ans"/>
+<input type="hidden" value="0e241084ab51a264741db8d27d9b5b7a" name="cm1"/>
+<input type="hidden" value="bf314be7b564faae7b1af597427fa413" name="cm2"/>
+</p>
+			<p><input type="submit" class="wpcf7-submit" value="Send" /></p>
+			</form>
+		</div>
+		<p><br><p><br><p><br><p><br><p><br><p>
+    </div>
+  <div class="clear"></div>
+</div>
+</div>
+<script src="//cdn.intergient.com/ramp_core.js"></script>
+</body>
+</html>

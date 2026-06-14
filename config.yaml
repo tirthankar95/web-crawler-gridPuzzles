@@ -1,6 +1,9 @@
 grid: 3x4
 difficulty: Easy
-count: 5
+count: 1
 output: puzzles.json
 headless: false
 delay: 1.0
+timeout_networkidle: 10_000
+sleep_time_slow: 15
+sleep_time_fast: 2

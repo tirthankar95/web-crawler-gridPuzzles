@@ -14,7 +14,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-@hydra.main(config_path="config.yaml")
+@hydra.main(version_base=None, config_path=".", config_name="config")
 def main(cfg: DictConfig):
     crawl_puzzles(
         grid_size=cfg.grid,
@@ -23,6 +23,7 @@ def main(cfg: DictConfig):
         output_file=cfg.output,
         headless=cfg.headless,
         delay=cfg.delay,
+        cfg=cfg
     )
 
 

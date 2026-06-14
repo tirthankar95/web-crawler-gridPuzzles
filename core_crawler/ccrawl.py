@@ -1,4 +1,9 @@
+import time
+import json
 import logging
+from pathlib import Path
+from omegaconf import DictConfig
+from datetime import datetime
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeout
 from page_parser.grid_parser import parse_puzzle_page
 
@@ -8,32 +13,22 @@ logger = logging.getLogger(__name__)
 # Constants
 # ---------------------------------------------------------------------------
 BASE_URL = "https://logic.puzzlebaron.com/init.php"
-GRID_LABEL_MAP = {
-    "3x4": "3x4 Grid",
-    "3x5": "3x5 Grid",
-    "4x4": "4x4 Grid",
-    "4x5": "4x5 Grid",
-    "4x6": "4x6 Grid",
-    "4x7": "4x7 Grid",
+# <select name="sg"> option values
+GRID_VALUE_MAP = {
+    "3x4": "1",
+    "3x5": "2",
+    "4x4": "3",
+    "4x5": "4",
+    "4x6": "5",
+    "4x7": "6",
 }
 
-
-def select_radio_by_label(page, label_text: str) -> bool:
-    """Click a radio button whose associated label contains label_text."""
-    # Try label element approach first
-    labels = page.query_selector_all("label")
-    for lbl in labels:
-        if label_text.lower() in lbl.inner_text().lower():
-            lbl.click()
-            return True
-    # Fallback: find input[type=radio] near matching text
-    radios = page.query_selector_all("input[type='radio']")
-    for radio in radios:
-        val = radio.get_attribute("value") or ""
-        if label_text.lower() in val.lower():
-            radio.click()
-            return True
-    return False
+# <select name="sd"> option values
+DIFFICULTY_VALUE_MAP = {
+    "Easy":        "1",
+    "Moderate":    "2",
+    "Challenging": "3",
+}
 
 
 def crawl_puzzles(
@@ -43,8 +38,11 @@ def crawl_puzzles(
     output_file: str,
     headless: bool,
     delay: float,
+    cfg: DictConfig = None,
 ):
-    grid_label = GRID_LABEL_MAP[grid_size]
+    grid_value       = GRID_VALUE_MAP[grid_size]
+    difficulty_value = DIFFICULTY_VALUE_MAP[difficulty]
+    
     results: list[dict] = []
     errors: list[str] = []
 
@@ -63,110 +61,38 @@ def crawl_puzzles(
             ),
             viewport={"width": 1280, "height": 900},
         )
-
         for i in range(1, count + 1):
             logger.info(f"─── Puzzle {i}/{count} ───────────────────────────")
-
             try:
                 page = context.new_page()
-
                 # ── Step 1: Load the selection page ──────────────────────
                 logger.info("Loading init.php …")
                 page.goto(BASE_URL, wait_until="domcontentloaded", timeout=30_000)
-                page.wait_for_load_state("networkidle", timeout=15_000)
 
                 # ── Step 2: Select Grid Size ──────────────────────────────
-                logger.info(f"Selecting grid size: {grid_label}")
-                if not select_radio_by_label(page, grid_label):
-                    # Try value-based approach
-                    radios = page.query_selector_all("input[type='radio']")
-                    logger.warning(
-                        f"Available radio values: {[r.get_attribute('value') for r in radios]}"
-                    )
-                    raise RuntimeError(f"Could not find radio for '{grid_label}'")
+                page.select_option("select[name='sg']", value=grid_value)
+                logger.info(f"  Grid size set  → option value={grid_value} ({grid_size})")
 
-                # ── Step 3: Select Difficulty ─────────────────────────────
-                logger.info(f"Selecting difficulty: {difficulty}")
-                if not select_radio_by_label(page, difficulty):
-                    raise RuntimeError(
-                        f"Could not find radio for difficulty '{difficulty}'"
-                    )
+                page.select_option("select[name='sd']", value=difficulty_value)
+                logger.info(f"  Difficulty set → option value={difficulty_value} ({difficulty})")
 
-                # ── Step 4: Click "Create Puzzle" ─────────────────────────
-                logger.info("Clicking 'Create Puzzle' …")
-                # Find the submit button – try common patterns
-                submit_btn = (
-                    page.query_selector("input[type='submit']")
-                    or page.query_selector("button[type='submit']")
-                    or page.query_selector("input[value*='Create']")
-                    or page.query_selector("input[value*='Puzzle']")
-                    or page.query_selector("button")
-                )
-                if not submit_btn:
-                    raise RuntimeError("Could not find submit/create button")
-
-                logger.info(
-                    f"Submit button text: '{submit_btn.get_attribute('value') or submit_btn.inner_text()}'"
-                )
-                submit_btn.click()
-                page.wait_for_load_state("domcontentloaded", timeout=20_000)
-                page.wait_for_load_state("networkidle", timeout=15_000)
-
-                intermediate_url = page.url
-                logger.info(f"After create → {intermediate_url}")
-
-                # ── Step 5: Click "Start Puzzle" ──────────────────────────
-                # This page shows puzzle info and has a "Start Puzzle" button
-                start_btn = None
-                for selector in [
-                    "a:has-text('Start Puzzle')",
-                    "input[value*='Start']",
-                    "button:has-text('Start')",
-                    "a[href*='puzzle']",
-                    "input[type='submit']",
-                ]:
-                    try:
-                        start_btn = page.query_selector(selector)
-                        if start_btn:
-                            break
-                    except Exception:
-                        continue
-
-                if start_btn:
-                    btn_text = (
-                        start_btn.inner_text()
-                        if hasattr(start_btn, "inner_text")
-                        else ""
-                    )
-                    logger.info(
-                        f"Clicking start button: '{btn_text or start_btn.get_attribute('value')}' …"
-                    )
-                    start_btn.click()
-                    page.wait_for_load_state("domcontentloaded", timeout=20_000)
-                    page.wait_for_load_state("networkidle", timeout=15_000)
-                else:
-                    logger.warning(
-                        "No 'Start Puzzle' button found – parsing current page as puzzle page"
-                    )
-
-                puzzle_url = page.url
-                logger.info(f"Puzzle URL: {puzzle_url}")
-
-                # ── Step 6: Parse puzzle content ──────────────────────────
+                logger.info("  Clicking 'Create Puzzle' …")
+                page.click("input[name='CreatePuzzle']")
+                
+                time.sleep(cfg.sleep_time_fast)
+                logger.info("  Clicking 'Start this puzzle' …")
+                page.click("input[name='submit']")
+                
+                time.sleep(cfg.sleep_time_fast)
                 html = page.content()
                 puzzle = parse_puzzle_page(html)
-                puzzle["url"] = puzzle_url
-                puzzle["grid_size"] = grid_size
-                puzzle["difficulty"] = difficulty
+                puzzle["url"]          = page.url
+                puzzle["grid_size"]    = grid_size
+                puzzle["difficulty"]   = difficulty
                 puzzle["collected_at"] = datetime.utcnow().isoformat() + "Z"
-                puzzle["index"] = i
-
-                clue_count = len(puzzle.get("clues", []))
-                logger.info(
-                    f"Collected: '{puzzle.get('title', 'N/A')}' with {clue_count} clues"
-                )
+                puzzle["index"]        = i
                 results.append(puzzle)
-
+                
             except PlaywrightTimeout as e:
                 msg = f"Puzzle {i}: Timeout – {e}"
                 logger.error(msg)

@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "grid_size": "3x4",
+    "difficulty": "Easy",
+    "requested": 1,
+    "collected": 0,
+    "errors": 1,
+    "generated_at": "2026-06-14T10:30:05.936800Z"
+  },
+  "errors": [
+    "Puzzle 1: Timeout – Timeout 15000ms exceeded."
+  ],
+  "puzzles": []
+}

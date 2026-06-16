@@ -6,4 +6,4 @@ headless: false
 delay: 1.0
 timeout_networkidle: 10_000
 sleep_time_slow: 15
-sleep_time_fast: 2
+sleep_time_fast: 5

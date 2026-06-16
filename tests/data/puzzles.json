@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "grid_size": "3x4",
+    "difficulty": "Easy",
+    "requested": 1,
+    "collected": 1,
+    "errors": 0,
+    "generated_at": "2026-06-16T20:06:09.954122Z"
+  },
+  "errors": [],
+  "puzzles": [
+    {
+      "title": "Play Ad-Free",
+      "clues": [
+        {
+          "id": "clue4",
+          "text": "1.The oyster from Appleton, CT costs 10 cents more than the Fanneuil oyster."
+        },
+        {
+          "id": "clue6",
+          "text": "2.The Thatcher oyster costs 10 cents more than the Bluepoint oyster."
+        },
+        {
+          "id": "clue5",
+          "text": "3.The oyster from Charlestown, CT costs somewhat less than the Bluepoint oyster."
+        },
+        {
+          "id": "clue7",
+          "text": "4.The one from Charlestown, CT costs 10 cents more than the oyster from Nesketucket, MA."
+        }
+      ],
+      "story": "James runs Raw 642, an oyster bar in the coastal town of Shelshank, Rhode Island.  Help him sort out today's menu by matching each oyster to its price and place of origin, and determine the descriptive \"tasting finish\" associated with each. Remember, as with all grid-based logic puzzles, no option in any category will ever be used more than once.  If you get stuck or run into problems, try the \"Clear Errors\" button to remove any mistakes that might be present on the grid, or the \"Hint\" button to see the next logical step in the puzzle.",
+      "answer_grid": [
+        [
+          "Prices",
+          "Oyster",
+          "Origins"
+        ],
+        [
+          "$2.00",
+          "",
+          ""
+        ],
+        [
+          "$2.10",
+          "",
+          ""
+        ],
+        [
+          "$2.20",
+          "",
+          ""
+        ],
+        [
+          "$2.30",
+          "",
+          ""
+        ]
+      ],
+      "all_options": {
+        "labelb_ary": [
+          "Bluepoint",
+          "Fanneuil",
+          "Katamaka",
+          "Thatcher"
+        ],
+        "labelc_ary": [
+          "Appleton, CT",
+          "Charlestown, CT",
+          "Nesketucket, MA",
+          "Willapa, RI"
+        ],
+        "labeld_ary": [
+          ""
+        ]
+      },
+      "page_text_excerpt": "\n\nLogic Puzzles | Solve a Puzzle\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n☰\n\n\n\n\nlogin\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n     \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n          Not a member? \nRegister now\n for free!\n        \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\n\nHigh Scores\n\n\n\n\n\n\nRegister\n\n\n\n\n\n\nOnline\n\n\n\n\n\n\nPrintables\n\n\n\n\n\n\nForum\n\n\n\n\n\n\nGames\n\n\n\n\n\n\nMore\n\n\n\n\n\n\nLogin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnjoy Puzzle Baron?\n\n\nPlay Ad-Free\n\n\n\n\n\n\nUpgrade to \nPremium\n\n\n\n\n\n\nAs low as\n\n\n$3.33/month\n\n\n\n\n\n\nGo Premium\n\n\nThanks for your support!\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\noyster\n\n\norigins\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\nBluepoint\n\n\n\n\nCreated with Rapha�l 2.1.2\nFanneuil\n\n\n\n\nCreated with Rapha�l 2.1.2\nKatamaka\n\n\n\n\nCreated with Rapha�l 2.1.2\nThatcher\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\nAppleton, CT\n\n\n\n\nCreated with Rapha�l 2.1.2\nCharlestown, CT\n\n\n\n\nCreated with Rapha�l 2.1.2\nNesketucket, MA\n\n\n\n\nCreated with Rapha�l 2.1.2\nWillapa, RI\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\nprices\n\n\n$2.00\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n$2.10\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n$2.20\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n$2.30\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\norigins\n\n\nAppleton, CT\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharlestown, CT\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNesketucket, MA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWillapa, RI\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndo\n\n\n      \n\n\nHint\n \n\n\n      \n\n\nClear Errors\n\n\n      \n\n\nStart Over\n \n\n\n\n\n\n\n\n\n\n\n\n\n000000000000000000000000000000000000000000000000\n\n\n\n\n\n\n000000000000000000000000000000000000000000000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClues\n\n\nStory\n\n\nNotes\n\n\nAnswers\n\n\n\n\n\n\n\n\n\n\n\n\nScroll Clues\n     \n\n\n\nActive Clues\n\n\n1.\n The oyster from Appleton, CT costs 10 cents more than the Fanneuil oyster.\n2.\n The Thatcher oyster costs 10 cents more than the Bluepoint oyster.\n3.\n The oyster from Charlestown, CT costs somewhat less than the Bluepoint oyster.\n4.\n The one from Charlestown, CT costs 10 cents more than the oyster from Nesketucket, MA.\nUsed Clues\n\n\n1.\n The oyster from Appleton, CT costs 10 cents more than the Fanneuil oyster.\n2.\n The Thatcher oyster costs 10 cents more than the Bluepoint oyster.\n3.\n The oyster from Charlestown, CT costs somewhat less than the Bluepoint oyster.\n4.\n The one from Charlestown, CT costs 10 cents more than the oyster from Nesketucket, MA.\n\n\n* Click on any clue to move it between \"Active Clues\" and \"Used Clues\".\n\n\n\n\n** Scroll to view all 4 clues **\n\n\n\n\n\n\nBackstory and Goal\n\n\n\nJames runs Raw 642, an oyster bar in the coastal town of Shelshank, Rhode Island.  Help him sort out today's menu by matching each oyster to its price and place of origin, and determine the descriptive \"tasting finish\" associated with each.\n\n\n\n\n\n\n\n\n\nRemember, as with all grid-based logic puzzles, no option in any category will ever be used more than once.  If you get stuck or run into problems, ",
+      "url": "https://logic.puzzlebaron.com/play.php?u2=3c5b4d75c151798350c9b44a9646c607",
+      "grid_size": "3x4",
+      "difficulty": "Easy",
+      "collected_at": "2026-06-16T20:06:09.659466Z",
+      "index": 1
+    }
+  ]
+}

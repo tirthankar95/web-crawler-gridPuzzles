@@ -85,7 +85,7 @@ def crawl_puzzles(
                 
                 time.sleep(cfg.sleep_time_fast)
                 html = page.content()
-                puzzle = parse_puzzle_page(html)
+                puzzle = parse_puzzle_page(html, cfg)
                 puzzle["url"]          = page.url
                 puzzle["grid_size"]    = grid_size
                 puzzle["difficulty"]   = difficulty

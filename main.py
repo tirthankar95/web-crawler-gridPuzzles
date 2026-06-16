@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 
 @hydra.main(version_base=None, config_path=".", config_name="config")
 def main(cfg: DictConfig):
-    crawl_puzzles(
+    output = crawl_puzzles(
         grid_size=cfg.grid,
         difficulty=cfg.difficulty,
         count=cfg.count,
@@ -25,6 +25,7 @@ def main(cfg: DictConfig):
         delay=cfg.delay,
         cfg=cfg
     )
+    
 
 
 if __name__ == "__main__":

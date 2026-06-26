@@ -2,8 +2,9 @@ grid: 3x4
 difficulty: Easy
 count: 1
 output: puzzles.json
-headless: false
+headless: true
 delay: 1.0
 timeout_networkidle: 10_000
 sleep_time_slow: 15
 sleep_time_fast: 5
+excel_output: grid-puzzles.csv

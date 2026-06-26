@@ -1,0 +1,43 @@
+Grid,Difficulty,Story,Clues,Table,Options,Puzzle
+3x4,Easy,"The Abbeville K-9 Academy trains dogs for use by a number of different county police forces.  Using only the clues below, match each of their most recent ""students"" to the month in which they graduated and the name of the officer and county to which they were assigned. Remember, as with all grid-based logic puzzles, no option in any category will ever be used more than once.  If you get stuck or run into problems, try the ""Clear Errors"" button to remove any mistakes that might be present on the grid, or the ""Hint"" button to see the next logical step in the puzzle.","1.The canine that graduated in May was either the dog assigned to Officer Salinas or the dog assigned to Officer Quinn.
+2.Barca graduated in April.
+3.The K-9 unit assigned to Officer Lyons graduated 1 month before the K-9 unit assigned to Officer Daugherty.
+4.The four dogs were the K-9 unit assigned to Officer Lyons, the dog that graduated in June, Jaws and the K-9 unit that graduated in April.
+5.The canine assigned to Officer Salinas was either Hercules or Barca.","+----------+--------+------------+
+| Months   | Dogs   | Officers   |
++==========+========+============+
+| March    |        |            |
++----------+--------+------------+
+| April    |        |            |
++----------+--------+------------+
+| May      |        |            |
++----------+--------+------------+
+| June     |        |            |
++----------+--------+------------+","Dogs: Aries, Barca, Hercules, Jaws
+Officers: Daugherty, Lyons, Quinn, Salinas","
+Story:
+The Abbeville K-9 Academy trains dogs for use by a number of different county police forces.  Using only the clues below, match each of their most recent ""students"" to the month in which they graduated and the name of the officer and county to which they were assigned. Remember, as with all grid-based logic puzzles, no option in any category will ever be used more than once.  If you get stuck or run into problems, try the ""Clear Errors"" button to remove any mistakes that might be present on the grid, or the ""Hint"" button to see the next logical step in the puzzle.
+
+Clues:
+1.The canine that graduated in May was either the dog assigned to Officer Salinas or the dog assigned to Officer Quinn.
+2.Barca graduated in April.
+3.The K-9 unit assigned to Officer Lyons graduated 1 month before the K-9 unit assigned to Officer Daugherty.
+4.The four dogs were the K-9 unit assigned to Officer Lyons, the dog that graduated in June, Jaws and the K-9 unit that graduated in April.
+5.The canine assigned to Officer Salinas was either Hercules or Barca.
+
+Solve the grid puzzle by filling the table:
++----------+--------+------------+
+| Months   | Dogs   | Officers   |
++==========+========+============+
+| March    |        |            |
++----------+--------+------------+
+| April    |        |            |
++----------+--------+------------+
+| May      |        |            |
++----------+--------+------------+
+| June     |        |            |
++----------+--------+------------+
+
+Use the clues to fill the table with the following categories:
+Dogs: Aries, Barca, Hercules, Jaws
+Officers: Daugherty, Lyons, Quinn, Salinas"

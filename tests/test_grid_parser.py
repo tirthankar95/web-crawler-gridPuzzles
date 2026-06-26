@@ -69,8 +69,8 @@ def test_get_puzzle():
     with open("tests/data/puzzles.json", "r", encoding="utf-8") as f:
         data = json.load(f)
         x, xx, xxx, options = puzzle_components(data['puzzles'][0])
-    assert options == """Category 1: Bluepoint, Fanneuil, Katamaka, Thatcher
-Category 2: Appleton, CT, Charlestown, CT, Nesketucket, MA, Willapa, RI"""
+    assert options == """Oyster: Bluepoint, Fanneuil, Katamaka, Thatcher
+Origins: Appleton, CT, Charlestown, CT, Nesketucket, MA, Willapa, RI"""
 
 
 @pytest.mark.verified
@@ -102,5 +102,5 @@ Solve the grid puzzle by filling the table:
 +----------+----------+-----------+
 
 Use the clues to fill the table with the following categories:
-Category 1: Bluepoint, Fanneuil, Katamaka, Thatcher
-Category 2: Appleton, CT, Charlestown, CT, Nesketucket, MA, Willapa, RI"""
+Oyster: Bluepoint, Fanneuil, Katamaka, Thatcher
+Origins: Appleton, CT, Charlestown, CT, Nesketucket, MA, Willapa, RI"""

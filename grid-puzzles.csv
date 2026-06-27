@@ -41,3 +41,43 @@ Solve the grid puzzle by filling the table:
 Use the clues to fill the table with the following categories:
 Dogs: Aries, Barca, Hercules, Jaws
 Officers: Daugherty, Lyons, Quinn, Salinas"
+3x4,Easy,"The Byronville Gaming Club holds one ""game night"" each month, at which a number of members gather to play a different board game.  Using only the clues that follow, match each game to the month in which it was played and the person who hosted the event, and determine how many total players were at each game night. Remember, as with all grid-based logic puzzles, no option in any category will ever be used more than once.  If you get stuck or run into problems, try the ""Clear Errors"" button to remove any mistakes that might be present on the grid, or the ""Hint"" button to see the next logical step in the puzzle.","1.The board game played in January was hosted by Wendy.
+2.Rules of War was hosted by Bonnie.
+3.The board game hosted at Wendy's house was either Android Disco or the game played in April.
+4.The game hosted at Vera's house was played 2 months after Planets Align.","+----------+---------+---------+
+| Months   | Games   | Hosts   |
++==========+=========+=========+
+| January  |         |         |
++----------+---------+---------+
+| February |         |         |
++----------+---------+---------+
+| March    |         |         |
++----------+---------+---------+
+| April    |         |         |
++----------+---------+---------+","Games: Android Disco, Planets Align, Rules of War, Vendetta
+Hosts: Adrian, Bonnie, Vera, Wendy","
+Story:
+The Byronville Gaming Club holds one ""game night"" each month, at which a number of members gather to play a different board game.  Using only the clues that follow, match each game to the month in which it was played and the person who hosted the event, and determine how many total players were at each game night. Remember, as with all grid-based logic puzzles, no option in any category will ever be used more than once.  If you get stuck or run into problems, try the ""Clear Errors"" button to remove any mistakes that might be present on the grid, or the ""Hint"" button to see the next logical step in the puzzle.
+
+Clues:
+1.The board game played in January was hosted by Wendy.
+2.Rules of War was hosted by Bonnie.
+3.The board game hosted at Wendy's house was either Android Disco or the game played in April.
+4.The game hosted at Vera's house was played 2 months after Planets Align.
+
+Solve the grid puzzle by filling the table:
++----------+---------+---------+
+| Months   | Games   | Hosts   |
++==========+=========+=========+
+| January  |         |         |
++----------+---------+---------+
+| February |         |         |
++----------+---------+---------+
+| March    |         |         |
++----------+---------+---------+
+| April    |         |         |
++----------+---------+---------+
+
+Use the clues to fill the table with the following categories:
+Games: Android Disco, Planets Align, Rules of War, Vendetta
+Hosts: Adrian, Bonnie, Vera, Wendy"

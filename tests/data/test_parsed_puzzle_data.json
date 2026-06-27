@@ -1,0 +1,11 @@
+{
+    "test_cases": [
+    {
+        "filename": "Logic Puzzles _ Solve a Puzzle_p3.html",
+        "story": "Minnetonka Manatee Company sent out a number of different boats today on manatee viewing tours.  Using only the clues below, match each boat to its captain and determine the total number of manatees seen by each as well as each boat's destination. Remember, as with all grid-based logic puzzles, no option in any category will ever be used more than once.  If you get stuck or run into problems, try the \"Clear Errors\" button to remove any mistakes that might be present on the grid, or the \"Hint\" button to see the next logical step in the puzzle.",
+        "clues": "1.The Foxy Roxy saw 3 manatees.\n2.The vessel that saw 5 manatees is either the Samantha or Captain Espinoza's vessel.\n3.The boat that saw 4 manatees was led by Captain Armstrong.\n4.Captain Preston's vessel saw 1  fewer manatees than the Benny II.\n5.The Watery Pete saw 2  more manatees than the Foxy Roxy.",
+        "table": "+------------+---------+------------+\n|   Manatees | Boats   | Captains   |\n+============+=========+============+\n|          3 |         |            |\n+------------+---------+------------+\n|          4 |         |            |\n+------------+---------+------------+\n|          5 |         |            |\n+------------+---------+------------+\n|          6 |         |            |\n+------------+---------+------------+",
+        "options": "Boats: Benny II, Foxy Roxy, Samantha, Watery Pete\nCaptains: Armstrong, Espinoza, Preston, Quinn"
+    }
+    ]
+}

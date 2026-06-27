@@ -5,7 +5,7 @@
     "requested": 1,
     "collected": 1,
     "errors": 0,
-    "generated_at": "2026-06-26T21:38:31.346411Z"
+    "generated_at": "2026-06-26T21:51:11.442746Z"
   },
   "errors": [],
   "puzzles": [
@@ -13,32 +13,38 @@
       "title": "Play Ad-Free",
       "clues": [
         {
-          "id": "clue2",
-          "text": "1.The canine that graduated in May was either the dog assigned to Officer Salinas or the dog assigned to Officer Quinn."
+          "id": "clue8",
+          "text": "1.The board game played in January was hosted by Wendy."
         },
         {
           "id": "clue7",
-          "text": "2.Barca graduated in April."
+          "text": "2.Rules of War was hosted by Bonnie."
         },
         {
-          "id": "clue5",
-          "text": "3.The K-9 unit assigned to Officer Lyons graduated 1 month before the K-9 unit assigned to Officer Daugherty."
+          "id": "clue4",
+          "text": "3.The board game hosted at Wendy's house was either Android Disco or the game played in April."
         },
         {
           "id": "clue6",
-          "text": "4.The four dogs were the K-9 unit assigned to Officer Lyons, the dog that graduated in June, Jaws and the K-9 unit that graduated in April."
-        },
-        {
-          "id": "clue3",
-          "text": "5.The canine assigned to Officer Salinas was either Hercules or Barca."
+          "text": "4.The game hosted at Vera's house was played 2 months after Planets Align."
         }
       ],
-      "story": "The Abbeville K-9 Academy trains dogs for use by a number of different county police forces.  Using only the clues below, match each of their most recent \"students\" to the month in which they graduated and the name of the officer and county to which they were assigned. Remember, as with all grid-based logic puzzles, no option in any category will ever be used more than once.  If you get stuck or run into problems, try the \"Clear Errors\" button to remove any mistakes that might be present on the grid, or the \"Hint\" button to see the next logical step in the puzzle.",
+      "story": "The Byronville Gaming Club holds one \"game night\" each month, at which a number of members gather to play a different board game.  Using only the clues that follow, match each game to the month in which it was played and the person who hosted the event, and determine how many total players were at each game night. Remember, as with all grid-based logic puzzles, no option in any category will ever be used more than once.  If you get stuck or run into problems, try the \"Clear Errors\" button to remove any mistakes that might be present on the grid, or the \"Hint\" button to see the next logical step in the puzzle.",
       "answer_grid": [
         [
           "Months",
-          "Dogs",
-          "Officers"
+          "Games",
+          "Hosts"
+        ],
+        [
+          "January",
+          "",
+          ""
+        ],
+        [
+          "February",
+          "",
+          ""
         ],
         [
           "March",
@@ -49,40 +55,30 @@
           "April",
           "",
           ""
-        ],
-        [
-          "May",
-          "",
-          ""
-        ],
-        [
-          "June",
-          "",
-          ""
         ]
       ],
       "all_options": {
         "labelb_ary": [
-          "Aries",
-          "Barca",
-          "Hercules",
-          "Jaws"
+          "Android Disco",
+          "Planets Align",
+          "Rules of War",
+          "Vendetta"
         ],
         "labelc_ary": [
-          "Daugherty",
-          "Lyons",
-          "Quinn",
-          "Salinas"
+          "Adrian",
+          "Bonnie",
+          "Vera",
+          "Wendy"
         ],
         "labeld_ary": [
           ""
         ]
       },
-      "page_text_excerpt": "\n\nLogic Puzzles | Solve a Puzzle\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n☰\n\n\n\n\nlogin\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n     \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n          Not a member? \nRegister now\n for free!\n        \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\n\nHigh Scores\n\n\n\n\n\n\nRegister\n\n\n\n\n\n\nOnline\n\n\n\n\n\n\nPrintables\n\n\n\n\n\n\nForum\n\n\n\n\n\n\nGames\n\n\n\n\n\n\nMore\n\n\n\n\n\n\nLogin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnjoy Puzzle Baron?\n\n\nPlay Ad-Free\n\n\n\n\n\n\nUpgrade to \nPremium\n\n\n\n\n\n\nAs low as\n\n\n$3.33/month\n\n\n\n\n\n\nGo Premium\n\n\nThanks for your support!\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndogs\n\n\nofficers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\nAries\n\n\n\n\nCreated with Rapha�l 2.1.2\nBarca\n\n\n\n\nCreated with Rapha�l 2.1.2\nHercules\n\n\n\n\nCreated with Rapha�l 2.1.2\nJaws\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\nDaugherty\n\n\n\n\nCreated with Rapha�l 2.1.2\nLyons\n\n\n\n\nCreated with Rapha�l 2.1.2\nQuinn\n\n\n\n\nCreated with Rapha�l 2.1.2\nSalinas\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\nmonths\n\n\nMarch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMay\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJune\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\nofficers\n\n\nDaugherty\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLyons\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuinn\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSalinas\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndo\n\n\n      \n\n\nHint\n \n\n\n      \n\n\nClear Errors\n\n\n      \n\n\nStart Over\n \n\n\n\n\n\n\n\n\n\n\n\n\n000000000000000000000000000000000000000000000000\n\n\n\n\n\n\n000000000000000000000000000000000000000000000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClues\n\n\nStory\n\n\nNotes\n\n\nAnswers\n\n\n\n\n\n\n\n\n\n\n\n\nScroll Clues\n     \n\n\n\nActive Clues\n\n\n1.\n The canine that graduated in May was either the dog assigned to Officer Salinas or the dog assigned to Officer Quinn.\n2.\n Barca graduated in April.\n3.\n The K-9 unit assigned to Officer Lyons graduated 1 month before the K-9 unit assigned to Officer Daugherty.\n4.\n The four dogs were the K-9 unit assigned to Officer Lyons, the dog that graduated in June, Jaws and the K-9 unit that graduated in April.\n5.\n The canine assigned to Officer Salinas was either Hercules or Barca.\nUsed Clues\n\n\n1.\n The canine that graduated in May was either the dog assigned to Officer Salinas or the dog assigned to Officer Quinn.\n2.\n Barca graduated in April.\n3.\n The K-9 unit assigned to Officer Lyons graduated 1 month before the K-9 unit assigned to Officer Daugherty.\n4.\n The four dogs were the K-9 unit assigned to Officer Lyons, the dog that graduated in June, Jaws and the K-9 unit that graduated in April.\n5.\n The canine assigned to Officer Salinas was either Hercules or Barca.\n\n\n* Click on any clue to move it between \"Active Clues\" and \"Used Clues\".\n\n\n\n\n** Scroll to view all 5 clues **\n\n\n\n\n\n\nBackstory and Goal\n\n\n\nThe Abbeville K-9 Academy trains dogs for use by a number of different county police forces.  Using only the clues below, match each of their most recent \"s",
-      "url": "https://logic.puzzlebaron.com/play.php?u2=f9a7b11b499a161bbdf63f0e483c482c",
+      "page_text_excerpt": "\n\nLogic Puzzles | Solve a Puzzle\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n☰\n\n\n\n\nlogin\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n     \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n          Not a member? \nRegister now\n for free!\n        \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\n\nHigh Scores\n\n\n\n\n\n\nRegister\n\n\n\n\n\n\nOnline\n\n\n\n\n\n\nPrintables\n\n\n\n\n\n\nForum\n\n\n\n\n\n\nGames\n\n\n\n\n\n\nMore\n\n\n\n\n\n\nLogin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnjoy Puzzle Baron?\n\n\nPlay Ad-Free\n\n\n\n\n\n\nUpgrade to \nPremium\n\n\n\n\n\n\nAs low as\n\n\n$3.33/month\n\n\n\n\n\n\nGo Premium\n\n\nThanks for your support!\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ngames\n\n\nhosts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\nAndroid Disco\n\n\n\n\nCreated with Rapha�l 2.1.2\nPlanets Align\n\n\n\n\nCreated with Rapha�l 2.1.2\nRules of War\n\n\n\n\nCreated with Rapha�l 2.1.2\nVendetta\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\nAdrian\n\n\n\n\nCreated with Rapha�l 2.1.2\nBonnie\n\n\n\n\nCreated with Rapha�l 2.1.2\nVera\n\n\n\n\nCreated with Rapha�l 2.1.2\nWendy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\nmonths\n\n\nJanuary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\nhosts\n\n\nAdrian\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBonnie\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVera\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWendy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndo\n\n\n      \n\n\nHint\n \n\n\n      \n\n\nClear Errors\n\n\n      \n\n\nStart Over\n \n\n\n\n\n\n\n\n\n\n\n\n\n000000000000000000000000000000000000000000000000\n\n\n\n\n\n\n000000000000000000000000000000000000000000000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClues\n\n\nStory\n\n\nNotes\n\n\nAnswers\n\n\n\n\n\n\n\n\n\n\n\n\nScroll Clues\n     \n\n\n\nActive Clues\n\n\n1.\n The board game played in January was hosted by Wendy.\n2.\n Rules of War was hosted by Bonnie.\n3.\n The board game hosted at Wendy's house was either Android Disco or the game played in April.\n4.\n The game hosted at Vera's house was played 2 months after Planets Align.\nUsed Clues\n\n\n1.\n The board game played in January was hosted by Wendy.\n2.\n Rules of War was hosted by Bonnie.\n3.\n The board game hosted at Wendy's house was either Android Disco or the game played in April.\n4.\n The game hosted at Vera's house was played 2 months after Planets Align.\n\n\n* Click on any clue to move it between \"Active Clues\" and \"Used Clues\".\n\n\n\n\n** Scroll to view all 4 clues **\n\n\n\n\n\n\nBackstory and Goal\n\n\n\nThe Byronville Gaming Club holds one \"game night\" each month, at which a number of members gather to play a different board game.  Using only the clues that follow, match each game to the month in which it was played and the person who hosted the event, and determine how many total players were at each game night.\n\n\n\n\n\n\n\n\n\nRemember, as with all grid-based logic puzzles, no option in any category will ever be used more than once.  If you get stuck or run into problems, try the \"Clear Errors\" button to remove any mistakes that might be present on the ",
+      "url": "https://logic.puzzlebaron.com/play.php?u2=27253c8666660ab3f4eb0c06e0bdeb3e",
       "grid_size": "3x4",
       "difficulty": "Easy",
-      "collected_at": "2026-06-26T21:38:31.120209Z",
+      "collected_at": "2026-06-26T21:51:11.319404Z",
       "index": 1
     }
   ]

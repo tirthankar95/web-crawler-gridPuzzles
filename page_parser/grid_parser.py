@@ -54,16 +54,13 @@ def parse_puzzle_page(html: str, cfg) -> dict:
     """
     soup = BeautifulSoup(html, "html.parser")
     puzzle: dict = {}
-
     # --- Title ---
     title_el = soup.find("h1") or soup.find("h2")
     puzzle["title"] = title_el.get_text(strip=True) if title_el else "Unknown"
-
     # Try to grab puzzle number from title
     num_match = re.search(r"#(\d+)", puzzle["title"])
     if num_match:
         puzzle["id"] = int(num_match.group(1))
-
     # --- Active Clues ---
     # Clues are in divs with class "clue" inside clue_holder
     clues: list[dict] = []
@@ -75,7 +72,6 @@ def parse_puzzle_page(html: str, cfg) -> dict:
             clues.append({"id": clue_id, "text": clue_text})
     puzzle["clues"] = clues
     logger.info(f"Extracted {len(clues)} active clues")
-
     # --- Backstory / Story ---
     # Story is usually in tabs-2 section with "Backstory and Goal" heading
     story = None
@@ -91,7 +87,6 @@ def parse_puzzle_page(html: str, cfg) -> dict:
             story = " ".join(story_parts)
     puzzle["story"] = story
     logger.info(f"Extracted story: {len(story) if story else 0} chars")
-
     # # --- Main Puzzle Grid ---
     # # The playable grid has id="puzzletable"
     # puzzle_grid_table = soup.find("table", id="puzzletable")

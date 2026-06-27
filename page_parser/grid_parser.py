@@ -19,12 +19,6 @@ def _extract_label_array(array_name: str, html) -> list[str]:
     max_idx = max(indexed_values.keys())
     return [indexed_values.get(i, "") for i in range(max_idx + 1)]
 
-
-def grid(html):
-    logger.warning('Not Implemented: grid()')
-    pass
-
-
 def grid3x4(html):
     all_options = {
             "labelb_ary": _extract_label_array("labelb_ary", html),
@@ -33,14 +27,53 @@ def grid3x4(html):
         }
     return all_options
 
+def grid3x5(html):
+    all_options = {
+            "labelb_ary": _extract_label_array("labelb_ary", html),
+            "labelc_ary": _extract_label_array("labelc_ary", html),
+            "labeld_ary": _extract_label_array("labeld_ary", html),
+        }
+    return all_options
+
+def grid4x4(html):
+    all_options = {
+            "labelb_ary": _extract_label_array("labelb_ary", html),
+            "labelc_ary": _extract_label_array("labelc_ary", html),
+            "labeld_ary": _extract_label_array("labeld_ary", html),
+        }
+    return all_options
+
+def grid4x5(html):
+    all_options = {
+            "labelb_ary": _extract_label_array("labelb_ary", html),
+            "labelc_ary": _extract_label_array("labelc_ary", html),
+            "labeld_ary": _extract_label_array("labeld_ary", html),
+        }
+    return all_options
+
+def grid4x6(html):
+    all_options = {
+            "labelb_ary": _extract_label_array("labelb_ary", html),
+            "labelc_ary": _extract_label_array("labelc_ary", html),
+            "labeld_ary": _extract_label_array("labeld_ary", html),
+        }
+    return all_options
+
+def grid4x7(html):
+    all_options = {
+            "labelb_ary": _extract_label_array("labelb_ary", html),
+            "labelc_ary": _extract_label_array("labelc_ary", html),
+            "labeld_ary": _extract_label_array("labeld_ary", html),
+        }
+    return all_options
 
 mapping = {
     "3x4": grid3x4,
-    "3x5": grid,
-    "4x4": grid,
-    "4x5": grid,
-    "4x6": grid,
-    "4x7": grid
+    "3x5": grid3x5,
+    "4x4": grid4x4,
+    "4x5": grid4x5,
+    "4x6": grid4x6,
+    "4x7": grid4x7
 }
 def parse_puzzle_page(html: str, cfg) -> dict:
     """

@@ -35,6 +35,7 @@ def _load_test_cases():
         html_file = Path(__file__).parent.parent / "webpages" / case["filename"]
         test_cases.append((
             html_file,
+            case['grid'],
             case["story"],
             case["clues"],
             case["table"],
@@ -44,16 +45,16 @@ def _load_test_cases():
 
 
 @pytest.mark.parametrize(
-    "html_file,story,clues,table,options",
-    [(tc[0], tc[1], tc[2], tc[3], tc[4]) for tc in _load_test_cases()]
+    "html_file,grid,story,clues,table,options",
+    [(tc[0], tc[1], tc[2], tc[3], tc[4], tc[5]) for tc in _load_test_cases()]
 )
 @pytest.mark.verified
-def test_puzzle_components(html_file, story, clues, table, options):
+def test_puzzle_components(html_file, grid, story, clues, table, options):
     """Test that title is extracted correctly."""
     if not html_file.exists():
         pytest.skip(f"HTML file not found: {html_file}")
     puzzle_html = html_file.read_text(encoding="utf-8")
-    result = parse_puzzle_page(puzzle_html, cfg=DictConfig({"grid": "3x4"}))
+    result = parse_puzzle_page(puzzle_html, cfg=DictConfig({"grid": grid}))
     parsed_story, parsed_clues, parsed_table, parsed_options = puzzle_components(result)
     assert parsed_story.strip() == story
     assert parsed_clues.strip() == clues
@@ -62,15 +63,15 @@ def test_puzzle_components(html_file, story, clues, table, options):
 
 
 @pytest.mark.parametrize(
-    "html_file,story,clues,table,options",
-    [(tc[0], tc[1], tc[2], tc[3], tc[4]) for tc in _load_test_cases()]
+    "html_file,grid,story,clues,table,options",
+    [(tc[0], tc[1], tc[2], tc[3], tc[4], tc[5]) for tc in _load_test_cases()]
 )
 @pytest.mark.verified
-def test_final_puzzle(html_file, story, clues, table, options):
+def test_final_puzzle(html_file, grid, story, clues, table, options):
     if not html_file.exists():
         pytest.skip(f"HTML file not found: {html_file}")
     puzzle_html = html_file.read_text(encoding="utf-8")
-    result = parse_puzzle_page(puzzle_html, cfg=DictConfig({"grid": "3x4"}))
+    result = parse_puzzle_page(puzzle_html, cfg=DictConfig({"grid": grid}))
     puzzle = parse_puzzle(result)
     expected_puzzle = f"""\nStory:\n{story}\n\nClues:\n{clues}\n\nSolve the grid puzzle by filling the table:\n{table}\n\nUse the clues to fill the table with the following categories:\n{options}"""
     assert puzzle == expected_puzzle

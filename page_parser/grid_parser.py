@@ -40,6 +40,7 @@ def grid4x4(html):
             "labelb_ary": _extract_label_array("labelb_ary", html),
             "labelc_ary": _extract_label_array("labelc_ary", html),
             "labeld_ary": _extract_label_array("labeld_ary", html),
+            "labele_ary": _extract_label_array("labele_ary", html)
         }
     return all_options
 
@@ -48,6 +49,7 @@ def grid4x5(html):
             "labelb_ary": _extract_label_array("labelb_ary", html),
             "labelc_ary": _extract_label_array("labelc_ary", html),
             "labeld_ary": _extract_label_array("labeld_ary", html),
+            "labele_ary": _extract_label_array("labele_ary", html)
         }
     return all_options
 
@@ -56,6 +58,7 @@ def grid4x6(html):
             "labelb_ary": _extract_label_array("labelb_ary", html),
             "labelc_ary": _extract_label_array("labelc_ary", html),
             "labeld_ary": _extract_label_array("labeld_ary", html),
+            "labele_ary": _extract_label_array("labele_ary", html)
         }
     return all_options
 
@@ -64,6 +67,7 @@ def grid4x7(html):
             "labelb_ary": _extract_label_array("labelb_ary", html),
             "labelc_ary": _extract_label_array("labelc_ary", html),
             "labeld_ary": _extract_label_array("labeld_ary", html),
+            "labele_ary": _extract_label_array("labele_ary", html)
         }
     return all_options
 

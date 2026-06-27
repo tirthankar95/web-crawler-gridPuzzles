@@ -81,3 +81,101 @@ Solve the grid puzzle by filling the table:
 Use the clues to fill the table with the following categories:
 Games: Android Disco, Planets Align, Rules of War, Vendetta
 Hosts: Adrian, Bonnie, Vera, Wendy"
+3x5,Easy,"The town of Briarton sits on a rocky hillside, and each household had to dig its own well.  Seven wells supply water for different purposes across the town.  Match each well to its soil type and purpose, as well as who owns it, and determine the depth of each one. Remember, as with all grid-based logic puzzles, no option in any category will ever be used more than once.  If you get stuck or run into problems, try the ""Clear Errors"" button to remove any mistakes that might be present on the grid, or the ""Hint"" button to see the next logical step in the puzzle.","1.The well cut through slate was either the water source used for drinking or the well dug to 60 feet.
+2.The water source dug to 60 feet isn't used for livestock.
+3.The well used for drinking was dug 10 feet deeper than the well cut through gravel.
+4.The well dug to 30 feet is used for laundry.
+5.The well cut through slate reaches 50 feet.
+6.The well used for washing was dug somewhat deeper than the well cut through sandstone.
+7.The water source cut through chalk was dug 30 feet deeper than the water source used for washing.","+----------+--------------+------------+
+| Depths   | Substrates   | Purposes   |
++==========+==============+============+
+| 30 feet  |              |            |
++----------+--------------+------------+
+| 40 feet  |              |            |
++----------+--------------+------------+
+| 50 feet  |              |            |
++----------+--------------+------------+
+| 60 feet  |              |            |
++----------+--------------+------------+
+| 70 feet  |              |            |
++----------+--------------+------------+","Substrates: chalk, gravel, sandstone, shale, slate
+Purposes: drinking, laundry, livestock, milling, washing","
+Story:
+The town of Briarton sits on a rocky hillside, and each household had to dig its own well.  Seven wells supply water for different purposes across the town.  Match each well to its soil type and purpose, as well as who owns it, and determine the depth of each one. Remember, as with all grid-based logic puzzles, no option in any category will ever be used more than once.  If you get stuck or run into problems, try the ""Clear Errors"" button to remove any mistakes that might be present on the grid, or the ""Hint"" button to see the next logical step in the puzzle.
+
+Clues:
+1.The well cut through slate was either the water source used for drinking or the well dug to 60 feet.
+2.The water source dug to 60 feet isn't used for livestock.
+3.The well used for drinking was dug 10 feet deeper than the well cut through gravel.
+4.The well dug to 30 feet is used for laundry.
+5.The well cut through slate reaches 50 feet.
+6.The well used for washing was dug somewhat deeper than the well cut through sandstone.
+7.The water source cut through chalk was dug 30 feet deeper than the water source used for washing.
+
+Solve the grid puzzle by filling the table:
++----------+--------------+------------+
+| Depths   | Substrates   | Purposes   |
++==========+==============+============+
+| 30 feet  |              |            |
++----------+--------------+------------+
+| 40 feet  |              |            |
++----------+--------------+------------+
+| 50 feet  |              |            |
++----------+--------------+------------+
+| 60 feet  |              |            |
++----------+--------------+------------+
+| 70 feet  |              |            |
++----------+--------------+------------+
+
+Use the clues to fill the table with the following categories:
+Substrates: chalk, gravel, sandstone, shale, slate
+Purposes: drinking, laundry, livestock, milling, washing"
+4x4,Easy,"Russell spent a rainy afternoon at the Westdale Marine Museum, marveling at the intricate model ships displayed in glass cases, each one a miniature masterpiece of rigging and hull work.  Match each model to its type and the kind of wood it was made of, as well as the person who made it, and determine the size of each model. Remember, as with all grid-based logic puzzles, no option in any category will ever be used more than once.  If you get stuck or run into problems, try the ""Clear Errors"" button to remove any mistakes that might be present on the grid, or the ""Hint"" button to see the next logical step in the puzzle.","1.The galleon, the ship built from oak, and the ship built from walnut are three different models.
+2.The 18 inch ship is built from maple.
+3.William's ship, the brigantine, and the ship built from walnut are three different models.
+4.The ship built from walnut, the brigantine, and Arthur's ship are three different models.
+5.The warship isn't exactly 24 inches long.
+6.The 24 inch model is William's.
+7.Of the 30 inch model and Charles's model, one is built from maple and the other is a galleon.","+---------+---------+--------------+----------+
+| Sizes   | Types   | Wood Types   | People   |
++=========+=========+==============+==========+
+| 18 inch |         |              |          |
++---------+---------+--------------+----------+
+| 24 inch |         |              |          |
++---------+---------+--------------+----------+
+| 30 inch |         |              |          |
++---------+---------+--------------+----------+
+| 36 inch |         |              |          |
++---------+---------+--------------+----------+","Types: brigantine, galleon, sloop, warship
+Wood Types: mahogany, maple, oak, walnut
+People: Arthur, Charles, Frederick, William","
+Story:
+Russell spent a rainy afternoon at the Westdale Marine Museum, marveling at the intricate model ships displayed in glass cases, each one a miniature masterpiece of rigging and hull work.  Match each model to its type and the kind of wood it was made of, as well as the person who made it, and determine the size of each model. Remember, as with all grid-based logic puzzles, no option in any category will ever be used more than once.  If you get stuck or run into problems, try the ""Clear Errors"" button to remove any mistakes that might be present on the grid, or the ""Hint"" button to see the next logical step in the puzzle.
+
+Clues:
+1.The galleon, the ship built from oak, and the ship built from walnut are three different models.
+2.The 18 inch ship is built from maple.
+3.William's ship, the brigantine, and the ship built from walnut are three different models.
+4.The ship built from walnut, the brigantine, and Arthur's ship are three different models.
+5.The warship isn't exactly 24 inches long.
+6.The 24 inch model is William's.
+7.Of the 30 inch model and Charles's model, one is built from maple and the other is a galleon.
+
+Solve the grid puzzle by filling the table:
++---------+---------+--------------+----------+
+| Sizes   | Types   | Wood Types   | People   |
++=========+=========+==============+==========+
+| 18 inch |         |              |          |
++---------+---------+--------------+----------+
+| 24 inch |         |              |          |
++---------+---------+--------------+----------+
+| 30 inch |         |              |          |
++---------+---------+--------------+----------+
+| 36 inch |         |              |          |
++---------+---------+--------------+----------+
+
+Use the clues to fill the table with the following categories:
+Types: brigantine, galleon, sloop, warship
+Wood Types: mahogany, maple, oak, walnut
+People: Arthur, Charles, Frederick, William"

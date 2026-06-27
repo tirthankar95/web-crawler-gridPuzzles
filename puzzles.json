@@ -1,11 +1,11 @@
 {
   "meta": {
-    "grid_size": "3x4",
+    "grid_size": "4x4",
     "difficulty": "Easy",
     "requested": 1,
     "collected": 1,
     "errors": 0,
-    "generated_at": "2026-06-26T21:51:11.442746Z"
+    "generated_at": "2026-06-27T08:14:20.138630Z"
   },
   "errors": [],
   "puzzles": [
@@ -13,72 +13,93 @@
       "title": "Play Ad-Free",
       "clues": [
         {
+          "id": "clue3",
+          "text": "1.The galleon, the ship built from oak, and the ship built from walnut are three different models."
+        },
+        {
           "id": "clue8",
-          "text": "1.The board game played in January was hosted by Wendy."
+          "text": "2.The 18 inch ship is built from maple."
         },
         {
-          "id": "clue7",
-          "text": "2.Rules of War was hosted by Bonnie."
-        },
-        {
-          "id": "clue4",
-          "text": "3.The board game hosted at Wendy's house was either Android Disco or the game played in April."
+          "id": "clue2",
+          "text": "3.William's ship, the brigantine, and the ship built from walnut are three different models."
         },
         {
           "id": "clue6",
-          "text": "4.The game hosted at Vera's house was played 2 months after Planets Align."
+          "text": "4.The ship built from walnut, the brigantine, and Arthur's ship are three different models."
+        },
+        {
+          "id": "clue9",
+          "text": "5.The warship isn't exactly 24 inches long."
+        },
+        {
+          "id": "clue7",
+          "text": "6.The 24 inch model is William's."
+        },
+        {
+          "id": "clue5",
+          "text": "7.Of the 30 inch model and Charles's model, one is built from maple and the other is a galleon."
         }
       ],
-      "story": "The Byronville Gaming Club holds one \"game night\" each month, at which a number of members gather to play a different board game.  Using only the clues that follow, match each game to the month in which it was played and the person who hosted the event, and determine how many total players were at each game night. Remember, as with all grid-based logic puzzles, no option in any category will ever be used more than once.  If you get stuck or run into problems, try the \"Clear Errors\" button to remove any mistakes that might be present on the grid, or the \"Hint\" button to see the next logical step in the puzzle.",
+      "story": "Russell spent a rainy afternoon at the Westdale Marine Museum, marveling at the intricate model ships displayed in glass cases, each one a miniature masterpiece of rigging and hull work.  Match each model to its type and the kind of wood it was made of, as well as the person who made it, and determine the size of each model. Remember, as with all grid-based logic puzzles, no option in any category will ever be used more than once.  If you get stuck or run into problems, try the \"Clear Errors\" button to remove any mistakes that might be present on the grid, or the \"Hint\" button to see the next logical step in the puzzle.",
       "answer_grid": [
         [
-          "Months",
-          "Games",
-          "Hosts"
+          "Sizes",
+          "Types",
+          "Wood Types",
+          "People"
         ],
         [
-          "January",
+          "18 inch",
+          "",
           "",
           ""
         ],
         [
-          "February",
+          "24 inch",
+          "",
           "",
           ""
         ],
         [
-          "March",
+          "30 inch",
+          "",
           "",
           ""
         ],
         [
-          "April",
+          "36 inch",
+          "",
           "",
           ""
         ]
       ],
       "all_options": {
         "labelb_ary": [
-          "Android Disco",
-          "Planets Align",
-          "Rules of War",
-          "Vendetta"
+          "brigantine",
+          "galleon",
+          "sloop",
+          "warship"
         ],
         "labelc_ary": [
-          "Adrian",
-          "Bonnie",
-          "Vera",
-          "Wendy"
+          "mahogany",
+          "maple",
+          "oak",
+          "walnut"
         ],
         "labeld_ary": [
-          ""
-        ]
+          "Arthur",
+          "Charles",
+          "Frederick",
+          "William"
+        ],
+        "labele_ary": []
       },
-      "page_text_excerpt": "\n\nLogic Puzzles | Solve a Puzzle\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n☰\n\n\n\n\nlogin\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n     \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n          Not a member? \nRegister now\n for free!\n        \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\n\nHigh Scores\n\n\n\n\n\n\nRegister\n\n\n\n\n\n\nOnline\n\n\n\n\n\n\nPrintables\n\n\n\n\n\n\nForum\n\n\n\n\n\n\nGames\n\n\n\n\n\n\nMore\n\n\n\n\n\n\nLogin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnjoy Puzzle Baron?\n\n\nPlay Ad-Free\n\n\n\n\n\n\nUpgrade to \nPremium\n\n\n\n\n\n\nAs low as\n\n\n$3.33/month\n\n\n\n\n\n\nGo Premium\n\n\nThanks for your support!\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ngames\n\n\nhosts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\nAndroid Disco\n\n\n\n\nCreated with Rapha�l 2.1.2\nPlanets Align\n\n\n\n\nCreated with Rapha�l 2.1.2\nRules of War\n\n\n\n\nCreated with Rapha�l 2.1.2\nVendetta\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\nAdrian\n\n\n\n\nCreated with Rapha�l 2.1.2\nBonnie\n\n\n\n\nCreated with Rapha�l 2.1.2\nVera\n\n\n\n\nCreated with Rapha�l 2.1.2\nWendy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\nmonths\n\n\nJanuary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApril\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\nhosts\n\n\nAdrian\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBonnie\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVera\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWendy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndo\n\n\n      \n\n\nHint\n \n\n\n      \n\n\nClear Errors\n\n\n      \n\n\nStart Over\n \n\n\n\n\n\n\n\n\n\n\n\n\n000000000000000000000000000000000000000000000000\n\n\n\n\n\n\n000000000000000000000000000000000000000000000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClues\n\n\nStory\n\n\nNotes\n\n\nAnswers\n\n\n\n\n\n\n\n\n\n\n\n\nScroll Clues\n     \n\n\n\nActive Clues\n\n\n1.\n The board game played in January was hosted by Wendy.\n2.\n Rules of War was hosted by Bonnie.\n3.\n The board game hosted at Wendy's house was either Android Disco or the game played in April.\n4.\n The game hosted at Vera's house was played 2 months after Planets Align.\nUsed Clues\n\n\n1.\n The board game played in January was hosted by Wendy.\n2.\n Rules of War was hosted by Bonnie.\n3.\n The board game hosted at Wendy's house was either Android Disco or the game played in April.\n4.\n The game hosted at Vera's house was played 2 months after Planets Align.\n\n\n* Click on any clue to move it between \"Active Clues\" and \"Used Clues\".\n\n\n\n\n** Scroll to view all 4 clues **\n\n\n\n\n\n\nBackstory and Goal\n\n\n\nThe Byronville Gaming Club holds one \"game night\" each month, at which a number of members gather to play a different board game.  Using only the clues that follow, match each game to the month in which it was played and the person who hosted the event, and determine how many total players were at each game night.\n\n\n\n\n\n\n\n\n\nRemember, as with all grid-based logic puzzles, no option in any category will ever be used more than once.  If you get stuck or run into problems, try the \"Clear Errors\" button to remove any mistakes that might be present on the ",
-      "url": "https://logic.puzzlebaron.com/play.php?u2=27253c8666660ab3f4eb0c06e0bdeb3e",
-      "grid_size": "3x4",
+      "page_text_excerpt": "\n\nLogic Puzzles | Solve a Puzzle\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n☰\n\n\n\n\nlogin\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n     \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n          Not a member? \nRegister now\n for free!\n        \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlay\n\n\n\n\n\n\nHigh Scores\n\n\n\n\n\n\nRegister\n\n\n\n\n\n\nOnline\n\n\n\n\n\n\nPrintables\n\n\n\n\n\n\nForum\n\n\n\n\n\n\nGames\n\n\n\n\n\n\nMore\n\n\n\n\n\n\nLogin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnjoy Puzzle Baron?\n\n\nPlay Ad-Free\n\n\n\n\n\n\nUpgrade to \nPremium\n\n\n\n\n\n\nAs low as\n\n\n$3.33/month\n\n\n\n\n\n\nGo Premium\n\n\nThanks for your support!\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntypes\n\n\nwood types\n\n\npeople\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\nbrigantine\n\n\n\n\nCreated with Rapha�l 2.1.2\ngalleon\n\n\n\n\nCreated with Rapha�l 2.1.2\nsloop\n\n\n\n\nCreated with Rapha�l 2.1.2\nwarship\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\nmahogany\n\n\n\n\nCreated with Rapha�l 2.1.2\nmaple\n\n\n\n\nCreated with Rapha�l 2.1.2\noak\n\n\n\n\nCreated with Rapha�l 2.1.2\nwalnut\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\nArthur\n\n\n\n\nCreated with Rapha�l 2.1.2\nCharles\n\n\n\n\nCreated with Rapha�l 2.1.2\nFrederick\n\n\n\n\nCreated with Rapha�l 2.1.2\nWilliam\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\nsizes\n\n\n18 inch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n24 inch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n30 inch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n36 inch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\npeople\n\n\nArthur\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharles\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrederick\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWilliam\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreated with Rapha�l 2.1.2\nwood types\n\n\nmahogany\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmaple\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\noak\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nwalnut\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndo\n\n\n      \n\n\nHint\n \n\n\n      \n\n\nClear Errors\n\n\n      \n\n\nStart Over\n \n\n\n\n\n\n\n\n\n\n\n\n\n000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\n\n\n\n\n\n\n000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nClues\n\n\nStory\n\n\nNotes\n\n\nAnswers\n\n\n\n\n\n\n\n\n\n\n\n\nScroll Clues\n     \n\n\n\nActive Clues\n\n\n1.\n The galleon, the ship built from oak, and the ship built from walnut are three different models.\n2.\n The 18 inch ship is built from maple.\n3.\n William's ship, the brigantine, and the ship built from walnut are three different models.\n4.\n The ship built from walnut, the brigantine, and Arthur's ship are three different models.\n5.\n The warship isn't exactly 24 inches long.\n6.\n The 24 inch model is William's.\n7.\n Of the 30 inch model and Charles's model, one is built from maple and the other is a galleon.\nUsed Clues\n\n\n1.\n The galleon, the ship built from oak, and the ship built from walnut are three different models.\n2.\n The 18 in",
+      "url": "https://logic.puzzlebaron.com/play.php?u2=b61fc90471ebd7d0c6dd5ec3b3d890b6",
+      "grid_size": "4x4",
       "difficulty": "Easy",
-      "collected_at": "2026-06-26T21:51:11.319404Z",
+      "collected_at": "2026-06-27T08:14:19.985789Z",
       "index": 1
     }
   ]

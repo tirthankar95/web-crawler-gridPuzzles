@@ -1,4 +1,4 @@
-grid: 3x4
+grid: 4x4
 difficulty: Easy
 count: 1
 output: puzzles.json

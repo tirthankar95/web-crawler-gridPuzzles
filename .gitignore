@@ -10,3 +10,4 @@ wheels/
 .venv
 outputs
 app.log
+.DS_Store
